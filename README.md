@@ -103,7 +103,14 @@ Rank | Title | Artist | Score | Reasons
 5 | Night Drive Loop | Neon Echo | 0.90 | energy similarity (+0.90)
 ```
 
-**Screenshot or video** *(optional)*: <!-- Insert a screenshot or demo video link here -->
+## Interactive Demo
+
+For a hands-on version, download `recommender_demo.html` and open it in any
+browser. Adjust the genre, mood, and energy controls to watch the top-5
+recommendations re-rank live. It mirrors the same scoring recipe as the Python
+CLI (genre +2.0, mood +1.0, energy up to +1.0). Set genre to "(none)" to see
+how the genre anchor controls which songs surface — a visual illustration of
+the filter-bubble effect discussed in the model card.
 
 ---
 
