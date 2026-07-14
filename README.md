@@ -108,9 +108,9 @@ Rank | Title | Artist | Score | Reasons
 For a hands-on version, download `recommender_demo.html` and open it in any
 browser. Adjust the genre, mood, and energy controls to watch the top-5
 recommendations re-rank live. It mirrors the same scoring recipe as the Python
-CLI (genre +2.0, mood +1.0, energy up to +1.0). Set genre to "(none)" to see
-how the genre anchor controls which songs surface — a visual illustration of
-the filter-bubble effect discussed in the model card.
+CLI (genre +2.0, mood +1.0, energy up to +1.0).
+
+![Recommender demo — high-energy pop profile](images/VibeFinder.png)
 
 ---
 
